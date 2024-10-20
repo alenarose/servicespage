@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+#services {
+    background-color: #f9f9f9;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ddd;
+}
+
+footer .list-inline-item a {
+    font-size: 1.5rem;
+}
+
+footer .list-inline-item a:hover {
+    color: #f0f0f0;
+}
+
+.image{
+    background-image: url('https://img.freepik.com/premium-vector/empty-white-room-background_33216-204.jpg?ga=GA1.1.624726977.1729340697&semt=ais_hybrid');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
